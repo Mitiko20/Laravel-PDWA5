@@ -1,0 +1,37 @@
+<data>
+<item>
+<marca>Samsung</marca>
+<modelo>Galaxy J1</modelo>
+<cor>Preto</cor>
+<memoriaRAM>4</memoriaRAM>
+<sistema>Android</sistema>
+</item>
+<item>
+<marca>Apple</marca>
+<modelo>Apple iPhone 13</modelo>
+<cor>Preto</cor>
+<memoriaRAM>4</memoriaRAM>
+<sistema>iOS 15</sistema>
+</item>
+<item>
+<marca>Samsung</marca>
+<modelo>Galaxy S21</modelo>
+<cor>Prata</cor>
+<memoriaRAM>8</memoriaRAM>
+<sistema>Android</sistema>
+</item>
+<item>
+<marca>Xiaomi</marca>
+<modelo>Mi 11</modelo>
+<cor>Branco</cor>
+<memoriaRAM>8</memoriaRAM>
+<sistema>Android</sistema>
+</item>
+<item>
+<marca>Sony</marca>
+<modelo>Xperia 5 II</modelo>
+<cor>Azul</cor>
+<memoriaRAM>4</memoriaRAM>
+<sistema>Android</sistema>
+</item>
+</data>
