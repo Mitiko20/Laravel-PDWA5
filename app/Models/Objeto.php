@@ -11,6 +11,5 @@ class Objeto extends Model
     use HasFactory;
 
     public $timestamps = true;
-    protected $fillable = ['marca', 'modelo', 'cor', 'memoria', 'sistema'];
-
+    protected $fillable = ['linha', 'data', 'booleano', 'decimal', 'inteiro'];
 }

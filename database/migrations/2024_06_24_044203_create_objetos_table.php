@@ -14,11 +14,11 @@ return new class extends Migration
         Schema::create('objetos', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
-            $table->string('marca', 50);
-            $table->string('modelo', 50);
-            $table->string('cor', 20);
-            $table->integer('memoria');
-            $table->string('sistema', 50);
+            $table->string('linha', 50);
+            $table->date('data');
+            $table->boolean('booleano');
+            $table->decimal('decimal', total: 10, places: 2);
+            $table->integer('inteiro');
         });
     }
     /**

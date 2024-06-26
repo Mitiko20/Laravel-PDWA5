@@ -14,35 +14,35 @@
                         <!--Marca-->
                         <div>
                             <x-input-label for="marca" :value="__('Marca')" />
-                            <x-text-input id="marca" class="block mt-1 w-full" type="text" name="marca" :value="old('marca')" maxlenght=50 required autofocus autocomplete="marca" />
+                            <x-text-input id="marca" class="block mt-1 w-full" type="text" name="marca" :value="old('marca')" maxlenght="50" required autofocus autocomplete="marca" />
                             <x-input-error :messages="$errors->get('marca')" class="mt-2" />
                         </div>
                         
                         <!--Modelo-->
                         <div>
                             <x-input-label for="modelo" :value="__('Modelo')" />
-                            <x-text-input id="modelo" class="block mt-1 w-full" type="text" name="modelo" :value="old('modelo')" maxlenght=50 required autofocus autocomplete="modelo" />
+                            <x-text-input id="modelo" class="block mt-1 w-full" type="text" name="modelo" :value="old('modelo')" maxlenght="50" required autofocus autocomplete="modelo" />
                             <x-input-error :messages="$errors->get('modelo')" class="mt-2" />
                         </div>
 
                         <!--Cor-->
                         <div>
                             <x-input-label for="cor" :value="__('Cor')" />
-                            <x-text-input id="cor" class="block mt-1 w-full" type="text" name="cor" :value="old('cor')" maxlenght=20 required autofocus autocomplete="cor" />
+                            <x-text-input id="cor" class="block mt-1 w-full" type="text" name="cor" :value="old('cor')" maxlenght="20" required autofocus autocomplete="cor" />
                             <x-input-error :messages="$errors->get('cor')" class="mt-2" />
                         </div>
 
-                        <!--Memoria Ram-->
+                        <!--Memoria RAM-->
                         <div>
-                            <x-input-label for="memoriaRam" :value="__('Memória Ram')" />
-                            <x-text-input id="memoriaRam" class="block mt-1 w-full" type="number" name="memoriaRam" :value="old('memoriaRam')" required autofocus autocomplete="memoriaRam" />
-                            <x-input-error :messages="$errors->get('memoriaRam')" class="mt-2" />
+                            <x-input-label for="memoriaRAM" :value="__('Memória RAM')" />
+                            <x-text-input id="memoriaRAM" class="block mt-1 w-full" type="number" name="memoriaRAM" :value="old('memoriaRAM')" required autofocus autocomplete="memoriaRAM" />
+                            <x-input-error :messages="$errors->get('memoriaRAM')" class="mt-2" />
                         </div>
 
-                        <!--Sistema-->
+                        <!--Marca-->
                         <div>
                             <x-input-label for="sistema" :value="__('Sistema')" />
-                            <x-text-input id="sistema" class="block mt-1 w-full" type="text" name="sistema" :value="old('sistema')" maxlenght=50 required autofocus autocomplete="sistema" />
+                            <x-text-input id="sistema" class="block mt-1 w-full" type="text" name="sistema" :value="old('sistema')" maxlenght="50" required autofocus autocomplete="sistema" />
                             <x-input-error :messages="$errors->get('sistema')" class="mt-2" />
                         </div>
 
